@@ -1,0 +1,33 @@
+.top{
+    text-align: center;
+    height:50vh;
+    background: #009578;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  
+    img{
+        height: 70%;
+        width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    }
+    H2{
+        color: rgb(39, 39, 136);
+    }
+  }
+
+  ion-button{
+    text-transform: capitalize;
+    --background: #009578;
+}
+
+ 

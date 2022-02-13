@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar  color="primary" >
+    <ion-title> Birthdays </ion-title>
+    <ion-buttons slot="primary">
+        <ion-button (click)="goToOrders()" >
+          <ion-icon slot="icon-only" name="calendar"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<!-- scrollable content -->
+
+<ion-content>
+  <ion-card  >
+    <img src="assets/icon/bd.jpg"/>
+    <ion-card-header>
+      <ion-button shape="round"><b>Like</b></ion-button>
+      <ion-button shape="round"><b>View Comments</b></ion-button>
+      
+      <ion-item>
+        <ion-label>Comment</ion-label>
+        <ion-input></ion-input>
+        <ion-button  type="submit" [disabled]="btnDisabled" shape="round" style="color:white" expand="block">Enter</ion-button>
+      </ion-item>
+     <ion-card-title>Birungi Susan's Birthday</ion-card-title>
+   </ion-card-header>
+   <ion-card-content>
+     Happy bithday 
+   </ion-card-content>
+   <ion-button  >
+     More
+   </ion-button>
+  </ion-card>
+  <ion-card  >
+    <img src="assets/icon/stom.jpg"/>
+    <ion-card-header>
+      <ion-button shape="round"><b>Like</b></ion-button>
+      <ion-button shape="round"><b>View Comments</b></ion-button>
+      <ion-item>
+        <ion-label>Comment</ion-label>
+        <ion-input></ion-input>
+        <ion-button  type="submit" [disabled]="btnDisabled" shape="round" style="color:white" expand="block">Enter</ion-button>
+      </ion-item>
+     <ion-card-title>Musasi Stom's Birthday</ion-card-title>
+   </ion-card-header>
+   <ion-card-content>
+     Happy bithday 
+   </ion-card-content>
+   <ion-button  >
+     More
+   </ion-button>
+  </ion-card>
+  <ion-card  >
+    <img src="assets/icon/bd.jpg"/>
+    <ion-card-header>
+      <ion-button shape="round"><b>Like</b></ion-button>
+      <ion-button shape="round"><b>View Comments</b></ion-button>
+      <ion-item>
+        <ion-label>Comment</ion-label>
+        <ion-input></ion-input>
+        <ion-button  type="submit" [disabled]="btnDisabled" shape="round" style="color:white" expand="block">Enter</ion-button>
+      </ion-item>
+     <ion-card-title>Birungi Susan's Birthday</ion-card-title>
+   </ion-card-header>
+   <ion-card-content>
+     Happy bithday 
+   </ion-card-content>
+   <ion-button  >
+     More
+   </ion-button>
+  </ion-card>
+
+</ion-content>
